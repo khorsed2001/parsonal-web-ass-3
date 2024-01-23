@@ -70,7 +70,9 @@
         </div>
         <div class="navbar-end ">
           <div class="flex items-center justify-center">
-            <img class="lg:mr-6" src="./images/search.png" alt="">
+            <div class="hidden ... lg:flex mr-6">
+              <img src="./images/search.png" alt="">
+            </div>
             <a class=" flex justify-center items-center btn bg-red-500 text-white font-bold">Get Ticket</a>
           </div>
         </div>
@@ -80,7 +82,7 @@
     <!-- Carousel Section -->
 
     <div class="container mx-auto lg:px-24 px-8 my-8">
-      <div class="carousel w-full h-[80vh] ">
+      <div class="lg:relative carousel w-full h-[80vh] ">
         <div id="slide1"
           class="carousel-item relative w-full bg-[linear-gradient(145deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(./images/1.png)] flex items-center justify-center bg-auto rounded-lg">
           <div class="absolute flex  transform -translate-y-1/2 left-5 bottom-1">
@@ -110,7 +112,16 @@
           </div>
         </div>
       </div>
+
+      <div class="lg:absolute bg-black p-10 max-w-lg rounded-lg bottom-5 right-40">
+        <h1 class="font-extrabold text-white">Meet all the heroes from the field</h1>
+        <p class=" text-slate-500">However, you haven't specified the field or industry you're interested in. Heroes can
+          emerge in various areas</p>
+      </div>
+
     </div>
+
+
 
   </header>
 
@@ -119,31 +130,30 @@
     <div>
       <hr class="border-dashed border-indigo-200">
       <h1 class=" text-2xl lg:text-4xl font-bold text-center my-8">Professional Hockeys Club</h1>
-      <p class="text-lg font-medium max-w-80 mx-auto text-base text-center lg:max-w-xl mx-auto mb-8">Dit amet
-        consectetur.
-        Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      <p class="text-lg font-medium max-w-80 mx-auto text-base text-center lg:max-w-xl mx-auto mb-8">Professional Hockey
+        Club stands as a testament to the spirit and skill that define the world of ice hockey. </p>
       <hr class="border-dashed border-indigo-200 mb-20">
 
       <div class="lg:flex">
         <div class="w-80 mx-auto text-center  p-10">
           <div class="radial-progress" style="--value:87; color:red;" role="progressbar">87%</div>
           <h3 class="my-5 font-bold">Prayer Facility</h3>
-          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <p>Welcoming individuals from diverse backgrounds, our facility</p>
         </div>
         <div class="w-80 mx-auto text-center  p-10">
           <div class="radial-progress" style="--value:95; color:lightseagreen;" role="progressbar">95%</div>
-          <h3 class="my-5 font-bold">Prayer Facility</h3>
-          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h3 class="my-5 font-bold">Experienced Coach</h3>
+          <p>The Prayer Facility, nestled in the heart of our community.</p>
         </div>
         <div class="w-80 mx-auto text-center  p-10">
           <div class="radial-progress" style="--value:90; color:orange;" role="progressbar">90%</div>
-          <h3 class="my-5 font-bold">Prayer Facility</h3>
-          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h3 class="my-5 font-bold">Senior Player</h3>
+          <p>Embodying tranquility and serenity, the Prayer Facility offers.</p>
         </div>
         <div class="w-80 mx-auto text-center  p-10">
           <div class="radial-progress" style="--value:80; color:rgb(21, 142, 255);" role="progressbar">80%</div>
-          <h3 class="my-5 font-bold">Prayer Facility</h3>
-          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h3 class="my-5 font-bold">Training Ground</h3>
+          <p>The architecture and design of the space reflect a commitment</p>
         </div>
       </div>
 
@@ -151,9 +161,8 @@
       <div class="my-20">
         <hr class="border-dashed border-indigo-200">
         <h1 class=" text-2xl lg:text-4xl font-bold text-center my-8">Program Sections</h1>
-        <p class="text-lg font-medium mx-auto text-base text-center max-w-80 lg:max-w-xl mx-auto mb-8">Dit amet
-          consectetur.
-          Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <p class="text-lg font-medium mx-auto text-base text-center max-w-80 lg:max-w-xl mx-auto mb-8">A well-structured
+          program often consists of various sections, each serving a specific and coherence of the system.</p>
         <hr class="border-dashed border-indigo-200 mb-20">
       </div>
 
@@ -161,35 +170,35 @@
 
       <div class=" grid-cols-1 lg:grid grid-cols-12   gap-4">
         <div
-          class="relative h-[338px] col-span-6 row-span-6 ... mb-5 bg-[linear-gradient(145deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url('../images/2.png')] rounded-lg">
+          class="relative h-[338px] col-span-6 row-span-6 ... mb-5 bg-[linear-gradient(145deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(./images/2.png)] rounded-lg bg-cover">
           <div class="absolute text-white bottom-2 left-10">
             <h1 class="text-3xl font-extrabold">Junior Program</h1>
-            <p class="font-medium max-w-72 lg:max-w-xl my-6">Dolor sit amet consectetur. Ut urna diam quis sagittis.
-              Elit elit
-              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            <p class="font-medium max-w-72 lg:max-w-xl my-6">
+              It seems like you're asking about a "Junior Program" in the context of software development or
+              programming. If that's the case, there could be a few interpretations
             </p>
             <button class="btn btn-secondary bg-red-500 hover:bg-red-500 border-none mb-10">Register Now!</button>
           </div>
         </div>
         <div
-          class=" relative h-[338px] col-span-6 row-span-6 ... mb-5 bg-[linear-gradient(145deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(./images/3.png)] rounded-lg">
+          class=" relative h-[338px] col-span-6 row-span-6 ... mb-5 bg-[linear-gradient(145deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(./images/3.png)] rounded-lg bg-cover">
           <div class="absolute text-white bottom-2 left-10">
             <h1 class="text-3xl font-extrabold">Teenager Program</h1>
-            <p class="font-medium max-w-72 lg:max-w-xl my-6">Dolor sit amet consectetur. Ut urna diam quis sagittis.
-              Elit elit
-              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            <p class="font-medium max-w-72 lg:max-w-xl my-6">
+              A "Teenager Program" could refer to various initiatives or activities specifically designed for teenagers.
+              Here are a few possible interpretations
             </p>
             <button class="btn btn-secondary bg-red-500 hover:bg-red-500 border-none mb-10">Register Now!</button>
           </div>
 
         </div>
         <div
-          class="relative h-[380px] lg:h-[450px] col-span-12 row-span-6 ... mb-5 bg-[linear-gradient(145deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(./images/4.png)] rounded-lg">
+          class="relative h-[380px] lg:h-[450px] col-span-12 row-span-6 ... mb-5 bg-[linear-gradient(145deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(./images/4.png)] rounded-lg ">
           <div class="absolute text-white bottom-2 left-10">
             <h1 class="text-3xl font-extrabold">Professional Program</h1>
-            <p class="font-medium max-w-72 lg:max-w-xl my-6">Dolor sit amet consectetur. Ut urna diam quis sagittis.
-              Elit elit
-              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            <p class="font-medium max-w-72 lg:max-w-xl my-6">Workshops, courses, or seminars aimed at enhancing the
+              skills and knowledge of professionals in a specific industry. These programs could cover areas such as
+              leadership, project management, communication, or industry-specific
             </p>
             <button class="btn btn-secondary bg-red-500 hover:bg-red-500 border-none mb-10">Register Now!</button>
           </div>
@@ -197,21 +206,14 @@
         </div>
       </div>
 
-      <!-- draft -->
-
-
-
-
-
-
       <!-- Our New Products -->
 
       <div class="my-20">
         <hr class="border-dashed border-indigo-200">
         <h1 class=" text-2xl lg:text-4xl font-bold text-center my-8">Our New Products</h1>
-        <p class="text-lg font-medium max-w-80 mx-auto text-base text-center lg:max-w-xl mx-auto mb-8">Dit amet
-          consectetur.
-          Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <p class="text-lg font-medium max-w-80 mx-auto text-base text-center lg:max-w-xl mx-auto mb-8">I'm sorry for any
+          confusion, but as of my last knowledge update in January 2022, I don't have information about specific
+          products. </p>
         <hr class="border-dashed border-indigo-200 mb-20">
       </div>
 
@@ -605,14 +607,30 @@
               class="btn btn-secondary w-full text-xl font-bold bg-red-500 hover:bg-red-500 border-none mb-10">Register
               Now!</button>
           </div>
+        </div>
 
+      </div>
+    </div>
+
+    <div class="container mx-auto my-8">
+      <div class="text-center text-2xl bg-green-100 p-10">
+        <h1 class=" font-bold">Social Media</h1>
+        <div class="font-medium mt-4">
+          <i class="fa-brands px-2 fa-twitter"></i>
+          <i class="fa-brands px-2 fa-facebook"></i>
+          <i class="fa-brands px-2 fa-instagram"></i>
+          <i class="fa-brands px-2 fa-github"></i>
         </div>
       </div>
     </div>
+
   </main>
 
-  <footer class="footer p-10 bg-black text-blue-100">
-  <aside class="ml-16">
+
+
+
+  <footer class="footer mt-20 p-10 bg-black text-blue-100">
+    <aside class="ml-16">
       <div class="">
         <h2 class="text-4xl font-bold">Hockey<span class="text-4xl font-bold text-red-500">'</span>s</h2>
         <p>Dit amet consectetur. Condimentum adipiscing <br> aliquam turpis placerat dolor. Purus urna <br> in sit
